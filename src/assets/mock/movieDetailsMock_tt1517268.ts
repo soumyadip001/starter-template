@@ -1,0 +1,13 @@
+export const result = {
+    "@type": "imdb.api.title.title",
+    "id": "/title/tt1517268/",
+    "image": {
+        "height": 4096,
+        "id": "/title/tt1517268/images/rm2419599361",
+        "url": "https://m.media-amazon.com/images/M/MV5BOWIwZGY0OTYtZjUzYy00NzRmLTg5YzgtYWMzNWQ0MmZiY2MwXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_.jpg",
+        "width": 2764
+    },
+    "title": "Barbie",
+    "titleType": "movie",
+    "year": 2023
+}

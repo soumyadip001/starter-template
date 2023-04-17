@@ -1,0 +1,39 @@
+.movies {
+    &__container {
+        padding: 1rem 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    &__topbar {
+        display: flex;
+        height: 4rem;
+        align-items: center;
+        font-size: 2rem;
+        line-height: 1.2rem;
+        width: 100%;
+        text-transform: capitalize;
+    }
+    &__results {
+        display: flex;
+        width: 100%;
+        height: auto;
+
+        mat-grid-list {
+            width: 100%;
+        }
+    }
+
+    &__search {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        height: 8rem;
+
+        mat-form-field {
+            width: 60%;
+        }
+    }
+}
